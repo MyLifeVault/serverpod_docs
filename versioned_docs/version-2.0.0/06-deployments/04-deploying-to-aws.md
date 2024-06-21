@@ -63,9 +63,9 @@ Next, you need to create two SSL certificates for your domain. Navigate to _AWS 
 
 ![Request certificate](/img/2-request-certificate.jpg)
 
-_Create a wildcard certificate for your domain._
+_Create a Second certificate for your domain._
 
-Finally, you must create a second wildcard certificate in the _US East N. Virginia (us-east-1)_ region. AWS Cloudfront can only access certificates created in the _us-east-1_ region. Change the region, and repeat the steps from when you created your first certificate. Save the ARN of your second certificate.
+Finally, you must create a second certificate, with the top level domain and a wildcard, in the _US East N. Virginia (us-east-1)_ region. AWS Cloudfront can only access certificates created in the _us-east-1_ region. Change the region, and repeat the steps from when you created your first certificate. Save the ARN of your second certificate.
 
 ## Configure Github
 
